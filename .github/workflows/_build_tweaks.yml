@@ -48,11 +48,15 @@ on:
         required: false
         default: ""
 
+# jobs:
+#   build-tweaks:
+#     name: Build Tweaks
+#     runs-on: macos-latest
+# testing gemmins idea
 jobs:
   build-tweaks:
     name: Build Tweaks
-    runs-on: macos-latest
-
+    runs-on: macos-14
     steps:
       - uses: actions/checkout@v6
         if: ${{ inputs.enable_localization }}
