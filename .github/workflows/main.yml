@@ -95,7 +95,7 @@ jobs:
   package:
     name: Package IPA
     # runs-on: macos-latest Geminis IDEA
-    runs-on: macos-15-intel
+    runs-on: macos-15
     needs: build-tweaks
     permissions:
       contents: write
